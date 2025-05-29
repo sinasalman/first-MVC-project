@@ -1,0 +1,12 @@
+@font-face {
+    font-family: iranSans;
+    src: url(../fonts/IRANSans\(FaNum\).ttf);
+}
+@font-face {
+    font-family: iranSansBold;
+    src: url(../fonts/IRANSans\(FaNum\)_Bold.ttf);
+}
+@font-face {
+    font-family: iranSansLight;
+    src: url(../fonts/IRANSans\(FaNum\)_Light.ttf);
+}

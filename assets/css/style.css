@@ -1,0 +1,16 @@
+#customFile {
+  border-radius: 10px;
+  border: 2px solid #0d6efd;
+  padding: 8px;
+  transition: all 0.3s ease;
+}
+
+#customFile:hover {
+  border-color: #0b5ed7;
+  background-color: #f0f8ff;
+}
+
+#customFile:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
