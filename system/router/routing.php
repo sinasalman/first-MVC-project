@@ -16,7 +16,6 @@
                 exit;
             }
             sizeof($this->route) == 1 ? $method = "index" : $method = $this->route[1];
-            include_once $path; 
             $class = "App\controller\\".$this -> route[0];
             $object = new $class();
             if(method_exists($object , $method)){
